@@ -1,0 +1,152 @@
+<class-diagram version="1.0.11" icons="false" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.LabelEntity" project="BORGCalendar" 
+    file="/BORGCalendar/src/net/sf/borg/model/entity/LabelEntity.java" binary="false">    
+    <position height="-1" width="-1" x="559" y="1137"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.Memo" project="BORGCalendar" 
+    file="/BORGCalendar/src/net/sf/borg/model/entity/Memo.java" binary="false">    
+    <position height="-1" width="-1" x="1601" y="950"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.Subtask" project="BORGCalendar" 
+    file="/BORGCalendar/src/net/sf/borg/model/entity/Subtask.java" binary="false">    
+    <position height="497" width="113" x="667" y="325"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.Tasklog" project="BORGCalendar" 
+    file="/BORGCalendar/src/net/sf/borg/model/entity/Tasklog.java" binary="false">    
+    <position height="257" width="113" x="820" y="325"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.Project" project="BORGCalendar" 
+    file="/BORGCalendar/src/net/sf/borg/model/entity/Project.java" binary="false">    
+    <position height="497" width="113" x="973" y="325"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.CheckList" project="BORGCalendar" 
+    file="/BORGCalendar/src/net/sf/borg/model/entity/CheckList.java" binary="false">    
+    <position height="197" width="116" x="533" y="88"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.CheckList.Item" 
+    project="BORGCalendar" file="/BORGCalendar/src/net/sf/borg/model/entity/CheckList.java" binary="false">    
+    <position height="197" width="94" x="533" y="325"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.Address" project="BORGCalendar" 
+    file="/BORGCalendar/src/net/sf/borg/model/entity/Address.java" binary="false">    
+    <position height="1157" width="138" x="1126" y="325"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.Appointment" project="BORGCalendar" 
+    file="/BORGCalendar/src/net/sf/borg/model/entity/Appointment.java" binary="false">    
+    <position height="-1" width="-1" x="974" y="1372"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.Link" project="BORGCalendar" 
+    file="/BORGCalendar/src/net/sf/borg/model/entity/Link.java" binary="false">    
+    <position height="302" width="113" x="1466" y="325"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.Task" project="BORGCalendar" 
+    file="/BORGCalendar/src/net/sf/borg/model/entity/Task.java" binary="false">    
+    <position height="707" width="122" x="1304" y="325"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <interface id="12" corner="BOTTOM_RIGHT" language="java" name="net.sf.borg.model.entity.CalendarEntity" 
+    project="BORGCalendar" file="/BORGCalendar/src/net/sf/borg/model/entity/CalendarEntity.java" binary="false">    
+    <position height="-1" width="-1" x="797" y="1097"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="false">      
+      <attributes public="true" package="false" protected="false" private="true"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <realization id="13">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="14">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="15">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="16" name="items"/>      
+      <multiplicity id="17" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="18">    
+    <bendpoint x="1148" y="1522"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="19">    
+    <bendpoint x="982" y="1522"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <nesting id="20">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <realization id="21">    
+    <bendpoint x="961" y="1522"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+    visibility="false">    
+    <attributes public="true" package="false" protected="false" private="true"/>    
+    <operations public="true" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
