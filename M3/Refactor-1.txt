@@ -1,0 +1,7 @@
+Refactor: Move TaskModel.daysBetween() and TaskModel.daysLeft() to DateUtil
+
+- Step 1: Copy TaskModel.daysBetween() and TaskModel.daysLeft() to DateUtil
+- Step 2: Replace usages of TaskModel.daysBetween() by DateUtil.daysBetween()
+- Step 3: Remove TaskModel.daysBetween()
+- Step 4: Replace usages of TaskModel.daysLeft() by DateUtil.daysLeft()
+- Step 5: Remove TaskModel.daysLeft()
