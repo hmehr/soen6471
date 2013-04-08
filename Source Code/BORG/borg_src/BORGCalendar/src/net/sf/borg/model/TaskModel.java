@@ -1117,14 +1117,14 @@ public class TaskModel extends Model implements Model.Listener, CategorySource,
 		if( isClosed(t)) return daysLeft;
 		
 		if( t.getDueDate() != null )
-			daysLeft = daysLeft(t.getDueDate());
+			daysLeft = DateUtil.daysLeft(t.getDueDate());
 		
 		for( Subtask st : getSubTasks(t.getKey()))
 		{
 			if( st.getCloseDate() != null ) continue;
 			
 			if( st.getDueDate() != null )
-				daysLeft = Math.min(daysLeft(st.getDueDate()), daysLeft);
+				daysLeft = Math.min(DateUtil.daysLeft(st.getDueDate()), daysLeft);
 
 		}
 		return daysLeft;

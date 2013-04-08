@@ -169,7 +169,7 @@ public class TaskView extends DockableView {
 			/*
 			 * color the due date background based on days left
 			 */
-			int days = TaskModel.daysLeft(dd);
+			int days = DateUtil.daysLeft(dd);
 			if (!isSelected) {
 				// yellow alert 
 				if (days < Prefs.getIntPref(PrefName.YELLOW_DAYS))
@@ -1314,7 +1314,7 @@ public class TaskView extends DockableView {
 				closeDate.setText(DateFormat.getDateInstance(DateFormat.MEDIUM)
 						.format(cd));
 
-			int daysleft = TaskModel.daysLeft(task.getDueDate());
+			int daysleft = DateUtil.daysLeft(task.getDueDate());
 			daysLeftText.setText(Integer.toString(daysleft));
 
 			String cat = task.getCategory();
@@ -1349,7 +1349,7 @@ public class TaskView extends DockableView {
 						subtask.getDueDate() != null ? new Integer(DateUtil
 								.daysBetween(subtask.getStartDate(), subtask
 										.getDueDate())) : null,
-						subtask.getDueDate() != null ? new Integer(TaskModel
+						subtask.getDueDate() != null ? new Integer(DateUtil
 								.daysLeft(subtask.getDueDate())) : null,
 						subtask.getCloseDate() };
 

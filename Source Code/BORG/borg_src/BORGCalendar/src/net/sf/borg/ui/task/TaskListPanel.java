@@ -667,7 +667,7 @@ class TaskListPanel extends JPanel implements Model.Listener {
 					ro[4] = null;
 				else {
 					Date dd = (Date) ro[7];
-					ro[4] = new Integer(TaskModel.daysLeft(dd));
+					ro[4] = new Integer(DateUtil.daysLeft(dd));
 				}
 
 				// strip newlines from the description
@@ -752,7 +752,7 @@ class TaskListPanel extends JPanel implements Model.Listener {
 							ro[4] = null;
 						else {
 							Date dd = (Date) ro[7];
-							ro[4] = new Integer(TaskModel.daysLeft(dd));
+							ro[4] = new Integer(DateUtil.daysLeft(dd));
 						}
 
 						ro[5] = subtask.getDescription();
