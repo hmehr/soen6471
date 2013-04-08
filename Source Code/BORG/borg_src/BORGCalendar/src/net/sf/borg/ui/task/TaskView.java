@@ -1346,7 +1346,7 @@ public class TaskView extends DockableView {
 						subtask.getDescription(),
 						subtask.getStartDate(),
 						subtask.getDueDate(),
-						subtask.getDueDate() != null ? new Integer(TaskModel
+						subtask.getDueDate() != null ? new Integer(DateUtil
 								.daysBetween(subtask.getStartDate(), subtask
 										.getDueDate())) : null,
 						subtask.getDueDate() != null ? new Integer(TaskModel

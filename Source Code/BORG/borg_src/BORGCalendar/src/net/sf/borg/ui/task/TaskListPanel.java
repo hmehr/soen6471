@@ -44,10 +44,7 @@ import javax.swing.ListSelectionModel;
 import javax.swing.event.TableModelEvent;
 import javax.swing.table.TableCellRenderer;
 
-import net.sf.borg.common.Errmsg;
-import net.sf.borg.common.PrefName;
-import net.sf.borg.common.Prefs;
-import net.sf.borg.common.Resource;
+import net.sf.borg.common.*;
 import net.sf.borg.model.CategoryModel;
 import net.sf.borg.model.Model;
 import net.sf.borg.model.Model.ChangeEvent;
@@ -643,8 +640,8 @@ class TaskListPanel extends JPanel implements Model.Listener {
 
 				// duration
 				if (task.getDueDate() != null) {
-					ro[8] = new Integer(TaskModel.daysBetween(task
-							.getStartDate(), task.getDueDate()));
+					ro[8] = new Integer(DateUtil.daysBetween(task
+                            .getStartDate(), task.getDueDate()));
 				} else {
 					ro[8] = null;
 				}
@@ -661,7 +658,7 @@ class TaskListPanel extends JPanel implements Model.Listener {
 				if (end == null) {
 					ro[9] = null;
 				} else {
-					ro[9] = new Integer(TaskModel.daysBetween(task
+					ro[9] = new Integer(DateUtil.daysBetween(task
 							.getStartDate(), end));
 				}
 
@@ -729,7 +726,7 @@ class TaskListPanel extends JPanel implements Model.Listener {
 						ro[7] = subtask.getDueDate();
 						
 						if (subtask.getDueDate() != null) {
-							ro[8] = new Integer(TaskModel.daysBetween(subtask
+							ro[8] = new Integer(DateUtil.daysBetween(subtask
 									.getStartDate(), subtask.getDueDate()));
 						} else {
 							ro[8] = null;
@@ -746,7 +743,7 @@ class TaskListPanel extends JPanel implements Model.Listener {
 						if (end == null) {
 							ro[9] = null;
 						} else {
-							ro[9] = new Integer(TaskModel.daysBetween(subtask
+							ro[9] = new Integer(DateUtil.daysBetween(subtask
 									.getStartDate(), end));
 						}
 
