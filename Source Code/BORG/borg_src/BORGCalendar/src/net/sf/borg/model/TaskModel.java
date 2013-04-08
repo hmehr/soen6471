@@ -1071,39 +1071,6 @@ public class TaskModel extends Model implements Model.Listener, CategorySource,
 		return db_.getLogs();
 	}
 
-	/**
-	 * return the number of days left before a given date.
-	 *
-	 * @param dd
-	 *            the date
-	 *
-	 * @return the number of days left
-	 */
-	public static int daysLeft(Date dd) {
-
-		if (dd == null)
-			return 0;
-		Calendar today = new GregorianCalendar();
-		Calendar dcal = new GregorianCalendar();
-		dcal.setTime(dd);
-
-		// find days left
-		int days = 0;
-		if (dcal.get(Calendar.YEAR) == today.get(Calendar.YEAR)) {
-			days = dcal.get(Calendar.DAY_OF_YEAR)
-					- today.get(Calendar.DAY_OF_YEAR);
-		} else {
-			days = new Long((dd.getTime() - today.getTime().getTime())
-					/ (1000 * 60 * 60 * 24)).intValue();
-		}
-
-		// if due date is past, set days left to 0
-		// negative days are silly
-		if (days < 0)
-			days = 0;
-		return days;
-	}
-
 	public static final int NO_DAYS_VALUE = 9999999;
 	/**
 	 * return the days left to complete the next due item for a task
