@@ -1,8 +1,6 @@
 BORG CALENDAR PROJECT
 
-Team Members:
-- Anjaneyulu Bodepudei (5973775)
-- Manouchehr Azizi (5232287)
-- Hermann Sonfock (5986052)
-- Viet Hung Nguyen (9816240)
-- Hamid Shahrestani (9729747)
+BORG is an open source calendar written in Java.
+
+As part of the Advance Software Architecture course we identified this project and tried to enhance its architectural features.
+Each team member, identified a certain bug and fixed it using a well-known design pattern.
